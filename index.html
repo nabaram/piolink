@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEVENJULY</title>
+
+</head>
+
+<body>
+    <h1>Piolink TAC</h1>
+    <form method="post" action="http://tac.piolink.com//kboard/login_check.php" onsubmit="return submitLogin(this);" id=form1 name=form1>
+
+
+        <div class="form">
+            <dl>
+                <dt>
+                    <label for="USER_ID">ID</label>
+                </dt>
+                <dd>
+                    <input type="text" name="id" class="input" id="USER_ID" type="text" size="10" maxlength="20" />
+                </dd>
+
+                <dt>
+                    <label for="PASS_WORD">Password</label>
+                </dt>
+                <dd>
+                    <input name="pass" class="input" id="PASS_WORD" type="password" size="10" maxlength="20" />
+                </dd>
+            </dl>
+            <span class="btn_login">
+                <input name="login" type="submit" value="Login" />
+            </span>
+
+        </div>
+
+</body>
+
+</html>
